@@ -4,37 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI french poem generator</title>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <script src="src/index.js"></script>
   </head>
-  
+
   <body>
-<div class="container">
-  <header>
-   <h1>AI french poem generator</h1>
-   
-   </header>
-   <main>
-    <form>
-        <input type="text" placeholder="Enter title of franch poem generator" autofocus required autocomplete="off" class="instruction"/>
-        <input type="submit" class="submit-button">
-    </form>
-    <br>
-    <br>
-    <div class="poem">
-        french poem
-    </div>
-   </main>
-    <footer>
-      This AI project is coded by
-      <a href="https://github.com/Rahel-CS" target="_blank">Rahel Habtamu</a>and
-      <a
-        href="https://github.com/Rahel-CS/french-poems-genereater"
-        target="_blank"
-        >open source</a>hosted on 
-      <a href="https://warm-caramel-52b19b.netlify.app/" target="_blank">netlfy</a>
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI french poem generator</h1>
+      </header>
+      <main>
+        <form id="poem-generator-form">
+          <input
+            type="text"
+            placeholder="Enter title of franch poem generator"
+            autofocus
+            required
+            autocomplete="off"
+            class="instruction"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <br />
+        <br />
+        <div class="poem" id="poem"></div>
+      </main>
+      <footer>
+        This AI project is coded by
+        <a href="https://github.com/Rahel-CS" target="_blank">Rahel Habtamu</a
+        >and
+        <a
+          href="https://github.com/Rahel-CS/french-poems-genereater"
+          target="_blank"
+          >open source</a
+        >hosted on
+        <a href="https://warm-caramel-52b19b.netlify.app/" target="_blank"
+          >netlfy</a
+        >
+      </footer>
     </div>
   </body>
-  
 </html>
