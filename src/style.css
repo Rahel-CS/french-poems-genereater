@@ -75,10 +75,10 @@ form {
 .poem {
   padding-top: 50px;
   font-size: 16px;
-  background-color: #fff;
+  background-color: #080606;
   padding: 50px;
   line-height: 2;
-  color: black;
+  color: rgb(248, 241, 241);
   border-left: 7px solid #885df1;
   box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
 }
