@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
-    <script src="src/index.js"></script>
+   
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI french poem generator</title>
@@ -33,13 +33,13 @@
             required
             autocomplete="off"
             class="instruction"
-            id="user-instruction"
+            id="user-instructions"
           />
           <input type="submit" class="submit-button" />
         </form>
         <br />
         <br />
-        <small>i.e:flower, paris, cheese</small>
+         <small class="hint">i.e:flower, paris, cheese</small>
         <div class="poem" id="poem"></div>
       </main>
       <footer>
@@ -56,6 +56,7 @@
           >netlfy</a
         >
       </footer>
+       <script src="src/index.js"></script>
     </div>
   </body>
 </html>
